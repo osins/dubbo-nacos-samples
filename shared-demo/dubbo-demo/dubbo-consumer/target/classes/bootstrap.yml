@@ -1,0 +1,27 @@
+server:
+  port: 59000
+spring:
+  application:
+    name: dubbo-demo-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: s2.homemart.club:8848
+        namespace: 28daa75d-0518-49f6-ae0f-a78f0c1b9b57
+      config:
+        server-addr: s2.homemart.club:8848
+        refresh-enabled: true
+        namespace: 28daa75d-0518-49f6-ae0f-a78f0c1b9b57
+        group: API
+        file-extension: yml
+dubbo:
+  application:
+    name: dubbo-demo-consumer
+    logger: slf4j
+    qos-port: 59002
+  registry:
+    address: nacos://s2.homemart.club:8848?register-consumer-url=true
+    register-mode: instance
+    port: 59001
+logging:
+  config: classpath:logback-spring.xml
