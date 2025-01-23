@@ -6,26 +6,25 @@
     <packaging>pom</packaging>
 
     <parent>
-        <groupId>club.homemart</groupId>
+        <groupId>com.osins</groupId>
         <artifactId>shared-module</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>shared-web</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <spring.boot.version>3.0.2</spring.boot.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring.boot.version}</version>
+            <version>${spring-boot.version}</version>
             <!-- 移除默认的Tomcat依赖 -->
             <exclusions>
                 <exclusion>
@@ -37,7 +36,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-undertow</artifactId>
-            <version>${spring.boot.version}</version>
+            <version>${spring-boot.version}</version>
         </dependency>
         <dependency>
             <groupId>io.undertow</groupId>
@@ -47,7 +46,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-            <version>${spring.boot.version}</version>
+            <version>${spring-boot.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -76,7 +75,7 @@
             <version>1.18.36</version>
         </dependency>
         <dependency>
-            <groupId>club.homemart</groupId>
+            <groupId>com.osins</groupId>
             <artifactId>shared-nacos</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

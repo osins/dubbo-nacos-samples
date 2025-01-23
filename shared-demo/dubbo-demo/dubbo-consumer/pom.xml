@@ -4,12 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>club.homemart</groupId>
+        <groupId>com.osins</groupId>
         <artifactId>dubbo-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>dubbo-consumer</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -19,14 +21,33 @@
 
     <dependencies>
         <dependency>
-            <groupId>club.homemart</groupId>
+            <groupId>com.osins</groupId>
             <artifactId>shared-dubbo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>club.homemart</groupId>
+            <groupId>com.osins</groupId>
             <artifactId>dubbo-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                        <configuration>
+                            <layout>ZIP</layout>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

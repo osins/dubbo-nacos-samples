@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="882cbb79-c2eb-4c5e-8b10-6c48e8974b44" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ryYsDvbUAX7Qg7iwI6CEQ9CxAo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.dubbo-provider [clean].executor": "Run",
+    "Maven.dubbo-provider [install].executor": "Run",
+    "Maven.shared-demo [install].executor": "Run",
+    "Maven.shared-dubbo [install].executor": "Run",
+    "Maven.shared-module [clean].executor": "Run",
+    "Maven.shared-module [deploy].executor": "Run",
+    "Maven.shared-module [install].executor": "Run",
+    "Maven.shared-module [package].executor": "Run",
+    "Maven.shared-nacos [install].executor": "Run",
+    "Maven.shared-web [clean].executor": "Run",
+    "Maven.shared-web [deploy].executor": "Run",
+    "Maven.shared-web [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/codes/my/shared-module",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.DubboConsumerDemoApplication">
+    <configuration name="DubboConsumerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="club.homemart.shared.demo.dubbo.consumer.DubboConsumerDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.homemart.shared.demo.dubbo.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProviderDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="club.homemart.shared.demo.dubbo.provider.DubboProviderDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.homemart.shared.demo.dubbo.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DubboConsumerDemoApplication" />
+        <item itemvalue="Spring Boot.DubboProviderDemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="882cbb79-c2eb-4c5e-8b10-6c48e8974b44" name="Changes" comment="" />
+      <created>1737532987238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737532987238</updated>
+      <workItem from="1737532988579" duration="609000" />
+      <workItem from="1737533605534" duration="1032000" />
+      <workItem from="1737534658932" duration="2740000" />
+      <workItem from="1737596444361" duration="48000" />
+      <workItem from="1737596500036" duration="200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

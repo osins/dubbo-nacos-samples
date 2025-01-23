@@ -7,17 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-provider" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dubbo-api" target="17" />
-      <module name="dubbo-consumer" target="17" />
-      <module name="dubbo-demo" target="17" />
-      <module name="dubbo-provider" target="17" />
-      <module name="homemart-parent" target="17" />
-      <module name="shared-demo" target="17" />
-      <module name="shared-dubbo" target="17" />
-      <module name="shared-web" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
